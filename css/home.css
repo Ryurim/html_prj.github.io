@@ -1,0 +1,23 @@
+body {
+    background-color:#fee6cb
+}
+.header {
+    background-image: url(../img/backgroundImg/photo-1543258103-a62bdc069871.avif);
+    background-size: cover;
+}
+.main {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, 1fr);
+}
+.article a {
+    color: #404040;
+}
+h2 {
+    color: #404040; 
+}
+.article {
+    border-bottom: 2px solid #404040;
+}
+main > .articles > p {
+    border-bottom: 2px dotted #656464;
+}

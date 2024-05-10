@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RimLog - LogIn</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/login.css">
+    
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div id="header_bar">
+                <div id="logo"><a href="./home.html"><img src="./img/musical-note.png"> RimLog</a></div>
+                <div id="nav">
+                    <ul>
+                        <li><a href="./home.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./posts.html">Posts</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./login.html">LogIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="info">
+                <span id="pageTitle"><h1>LogIn</h1></span>
+            </div>
+        </header>
+        <main class="main">
+            <form action=""  id="frm" >
+                <p><img src="./img/login-.png" alt=""> LogIn, Please</p>
+                <fieldset>
+                    <input type="text" id="id" name="id" placeholder="ID" autofocus><br>
+                    <div id="errId" style="display: none;"></div>
+                    <input type="password" id="pwd" name="pwd" placeholder="영문+숫자+특수문자조합"><br>
+                    <div id="errPwd" style="display: none;"></div>
+                </fieldset>
+                <div id="findAndJoin">
+                    <a href=""><span id="find">아이디/비밀번호 찾기</span></a>
+                    <span>|</span>
+                    <a href=""><span id="join">회원가입</span></a>
+                </div>
+                
+                <input type="submit" value="LogIn">
+            </form>
+        </main>
+        <footer class="footer">
+            <div class="arrow">
+                <a href="#"><img src="./img/up-arrow.png" alt=""></a>
+            </div>
+            <div class="contact">
+                <ul>
+                    <li><a href="https://mail.google.com" target="_blank"><img src="./img/gmail.png" alt=""></a></li>
+                    <li><a href="https://www.instagram.com/rim__nim?igsh=OGVkMXVlOHBlaDc4&utm_source=qr" target="_blank"><img src="./img/instagram.png" alt=""></a></li>
+                    <li><a href="https://github.com/Ryurim" target="_blank"><img src="./img/github.png" alt=""></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/login.js"></script>
+</body>
+</html>

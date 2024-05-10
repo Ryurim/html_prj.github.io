@@ -1,0 +1,91 @@
+.article a {
+    text-decoration: none;
+    color: #404040;
+}
+a:hover {
+    text-decoration: underline;
+}
+body {
+    background-color: #d3fffd;
+}
+ul {list-style: none; padding: 0;}
+.header {
+    background-image: url(../img/backgroundImg/postsImg.jpg);
+    background-size: cover;
+}
+.article {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "image1 text1";
+    border-bottom: 1px solid black;
+}
+h2, h3, p {
+    color: #404040; 
+}
+.imgbox{
+    position: relative;
+}
+.hiddenImg {
+    grid-area: image1;
+    display: flex;
+    flex-wrap: nowrap;
+    z-index: 90;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    transition-property: width;
+    transition-duration: 2s;
+    
+}
+.hiddenImg:hover {
+   width: 600px;
+}
+
+.hiddenImg li {
+    width: 150px;
+    height: 150px;
+}
+#hiddenbtn {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    z-index: 90;
+}
+.hiddenImg li img {
+    width: 150px;    
+    height: 150px;
+}
+.article .writing {
+    grid-area: text1;
+    margin-left: 20px;
+}
+
+li {
+    float: left;
+}
+#hiddenImgs {
+    list-style: none;
+}
+.pageNum {
+    
+    margin-bottom: 100px;
+}
+.pageNum ul {
+    list-style: none;
+    width: fit-content;
+    padding: 0;
+    margin: 10px auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.pageNum ul a {
+    float: left;
+    margin: 10px;
+    color: #404040;
+}
+
+.pageNum ul a li:hover {
+    text-decoration: underline;
+}

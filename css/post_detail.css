@@ -1,0 +1,62 @@
+body {
+    background-color:#fff;
+}
+.header {
+    background-image: url(../img/backgroundImg/postsImg.jpg);
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index:90;
+    opacity: 0.8;
+}
+.info {
+    text-align: center;
+    height: 200px;
+    align-items: center;
+    color: #000;
+}
+.info #pageTitle > h1{
+    margin-top: 0px;
+    padding-top: 86px;
+}
+.main {
+    width: 70%;
+    text-align: justify;
+    align-items: center;
+    margin-top: 200px;
+}
+.main img {
+    width:100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.main .smallImg {
+    width: 500px;
+    margin: 30px auto;
+}
+.titleCls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+.location a {
+    color: #000;
+    background-color: #d3fffd;
+    padding: 5px;
+}
+.location div {
+    width: 120px;
+}

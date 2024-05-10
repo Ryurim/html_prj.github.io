@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RimLog - Contact</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div id="header_bar">
+                <div id="logo"><a href="./home.html"><img src="./img/musical-note.png"> RimLog</a></div>
+                <div id="nav">
+                    <ul>
+                        <li><a href="./home.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./posts.html">Posts</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./login.html">LogIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="info">
+                <span id="pageTitle"><h1>Contact</h1></span>
+                <span>궁금한 점이 있으신가요?</span>
+            </div>
+        </header>
+        <main>
+            <div>
+                <form id="frm">
+                    <p><img src="./img/contact/question-mark.png" alt=""> If you have a question, send me your information</p>
+                    <fieldset>
+                        <input type="text" id="name" name="name" value="" maxlength="20" placeholder="name" autofocus><br>
+                        <div id="errId" style="display: none;"></div>
+                        <input type="text" id="email" name="email" maxlength="200" placeholder="email address"><br>
+                        <div id="errEmail" style="display: none;"></div>
+                        <input type="text" id="phone" name="phone" maxlength="20" placeholder="phone number"><br>
+                        <div id="errPhone" style="display: none;"></div>
+                        <textarea id="msg" name="msg" cols="30" rows="10" placeholder="message"></textarea><br>
+                    </fieldset>
+                    <input type="submit" value="submit">
+                    <input type="reset" value="reset">
+                </form>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="arrow">
+                <a href="#"><img src="./img/up-arrow.png" alt=""></a>
+            </div>
+            <div class="contact">
+                <ul>
+                    <li><a href="https://mail.google.com" target="_blank"><img src="./img/gmail.png" alt=""></a></li>
+                    <li><a href="https://www.instagram.com/rim__nim?igsh=OGVkMXVlOHBlaDc4&utm_source=qr" target="_blank"><img src="./img/instagram.png" alt=""></a></li>
+                    <li><a href="https://github.com/Ryurim" target="_blank"><img src="./img/github.png" alt=""></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/contact.js"></script>
+</body>
+</html>

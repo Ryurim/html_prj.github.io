@@ -1,0 +1,64 @@
+body {
+    background-color:#ddeffc;
+}
+.header {
+    background-image: url(../img/backgroundImg/IMG_7193.jpg);
+    background-size: cover;
+}
+#frm {
+    text-align: center;
+    margin-bottom: 300px;
+}
+#frm p {
+    width: fit-content;
+    margin: 20px auto;
+}
+#frm fieldset {
+    width: max-content;
+    margin: 10px auto;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 15px;
+}
+#frm input:not([type=submit]) {
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 5px;
+    width: 300px;
+    margin: 10px;
+    background-color: #a5d4f6;
+}
+textarea {
+    border-radius: 5px;
+}
+#frm input[type=submit], #frm input[type=reset] {
+    width: 50px;
+    margin: 0 auto;
+    background-color: #ffffff00;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 10px;
+}
+#frm input[type=submit]:hover, #frm input[type=reset]:hover {
+    cursor: pointer;
+    background-color: #a5d4f6;
+}
+#findAndJoin a span, #findAndJoin a ~ span{
+    color: #838282;
+    font-size: small;
+}
+#findAndJoin a span:hover, #findAndJoin a ~ span:hover{
+    text-decoration: underline;
+}
+#findAndJoin a:last-child {
+    margin-right: 22px;
+}
+#findAndJoin {
+    margin-bottom: 50px;
+}
+.info {
+    text-align: center;
+    height: 400px;
+    align-items: center;
+    color: #505050;
+}
